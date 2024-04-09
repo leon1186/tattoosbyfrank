@@ -1,0 +1,32 @@
+body{ 
+    background-color: azure;
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.uno{
+    text-align: center;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+}
+.bandeja { 
+    display: flex;
+    padding:0%;
+    list-style: none;
+    justify-content: space-between;
+
+}
+.bandeja li a {
+    font-size: 20px;
+    padding: 10px;
+    color:black;
+    background-color:bisque;
+    text-decoration: none;
+    border: 1px solid black;
+
+}
+.bandeja li a:hover{
+    color: aqua;
+}
